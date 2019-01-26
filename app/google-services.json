@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "11968711403",
+    "firebase_url": "https://fir-bf01e.firebaseio.com",
+    "project_id": "fir-bf01e",
+    "storage_bucket": "fir-bf01e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11968711403:android:765b9091e78ebb86",
+        "android_client_info": {
+          "package_name": "com.example.harsmeet.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11968711403-i1am8lc0fn99al4267khh1fp1r2311nr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.harsmeet.myapplication",
+            "certificate_hash": "0282abf6d38b87407a409017a40b919f5ad9d5c1"
+          }
+        },
+        {
+          "client_id": "11968711403-dhqsfaalrfchmf0rfmalankh720831rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWoh465wGsFUQzdVZZlBOayENhuC5j_Vg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11968711403-dhqsfaalrfchmf0rfmalankh720831rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
