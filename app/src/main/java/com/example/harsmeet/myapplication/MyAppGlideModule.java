@@ -13,12 +13,16 @@ import java.io.InputStream;
 
 @GlideModule
 public class MyAppGlideModule extends AppGlideModule {
+// upload image from firebase realtime database
+
 
     @Override
     public void registerComponents(Context context, Glide glide, Registry registry) {
         // Register FirebaseImageLoader to handle StorageReference
         registry.append(StorageReference.class, InputStream.class,
                 new FirebaseImageLoader.Factory());
+
+        
     }
 }
 
