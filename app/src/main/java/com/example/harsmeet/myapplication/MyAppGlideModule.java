@@ -31,11 +31,6 @@ public class MyAppGlideModule extends AppGlideModule {
 //
 //                new FirebaseImageLoader.Factory());
 //        registry.append(StorageReference.class, InputStream.class,
-//
-//
-//                new FirebaseImageLoader.Factory());//        registry.append(StorageReference.class, InputStream.class,
-////
-//
 
     }
 }
