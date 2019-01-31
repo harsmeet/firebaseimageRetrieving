@@ -63,23 +63,6 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 //            e.printStackTrace();//        registry.append(StorageReference.class, InputStream.class,
 ////
 ////
-////                new FirebaseImageLoader.Factory());
-////        registry.append(StorageReference.class, InputStream.class,
-////
-////
-////                new FirebaseImageLoader.Factory());//        registry.append(StorageReference.class, InputStream.class,
-////
-////
-////                new FirebaseImageLoader.Factory());
-////        registry.append(StorageReference.class, InputStream.class,
-////
-////
-////                new FirebaseImageLoader.Factory());//        registry.append(StorageReference.class, InputStream.class,
-////
-////
-////                new FirebaseImageLoader.Factory());
-////        registry.append(StorageReference.class, InputStream.class,
-////
 ////
 ////                new FirebaseImageLoader.Factory());
 //
