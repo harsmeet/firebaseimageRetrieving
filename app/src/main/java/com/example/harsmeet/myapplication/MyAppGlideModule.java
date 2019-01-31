@@ -4,7 +4,6 @@ import android.content.Context;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.Registry;
-
 import com.bumptech.glide.annotation.GlideModule;
 import com.bumptech.glide.module.AppGlideModule;
 import com.firebase.ui.storage.images.FirebaseImageLoader;
@@ -14,7 +13,7 @@ import java.io.InputStream;
 
 @GlideModule
 public class MyAppGlideModule extends AppGlideModule {
-// upload image from firebase realtime database
+// upload image from firebase realtime databas
 
 
     @Override
@@ -24,9 +23,7 @@ public class MyAppGlideModule extends AppGlideModule {
 
         registry.append(StorageReference.class, InputStream.class,
 
-
                 new FirebaseImageLoader.Factory());
-
 
 
 //        registry.append(StorageReference.class, InputStream.class,
