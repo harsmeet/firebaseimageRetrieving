@@ -39,13 +39,6 @@ public class MyAppGlideModule extends AppGlideModule {
 //
 //            bmImage.setImageBitmap(result);
 //
-//        } catch (Exception e) {
-//
-//            e.printStackTrace();
-//        }
-//        try {
-//
-//        }
 //
 //
 //

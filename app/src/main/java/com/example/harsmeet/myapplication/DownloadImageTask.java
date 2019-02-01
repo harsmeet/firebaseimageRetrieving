@@ -59,27 +59,6 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 //
 //            Log.e("Error", e.getMessage());
 //
-//
-//
-
-
-
-//        try {
-//
-//            bmImage.setImageBitmap(result);
-//
-//        } catch (Exception e) {
-//
-//            e.printStackTrace();
-//        }
-//        try {
-//
-//            bmImage.setImageBitmap(result);//
-//            e.printStackTrace();
-//        }
-//
-//
-//
 
 
 
