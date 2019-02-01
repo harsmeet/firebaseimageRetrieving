@@ -21,7 +21,6 @@ public class MyAppGlideModule extends AppGlideModule {
         // Register FirebaseImageLoader to handle StorageReference
 
         try {
-
             registry.append(StorageReference.class, InputStream.class,
 
                     new FirebaseImageLoader.Factory());
