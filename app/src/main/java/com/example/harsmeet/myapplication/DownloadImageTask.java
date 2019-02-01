@@ -38,6 +38,7 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
 
             Log.e("Error", e.getMessage());
+//            Log.e("Error", e.getMessage());
 
 
             e.printStackTrace();
@@ -58,5 +59,6 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
             e.printStackTrace();
         }
+//        e.printStackTrace();
     }
 }
