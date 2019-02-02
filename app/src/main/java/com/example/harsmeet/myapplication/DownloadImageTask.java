@@ -42,6 +42,7 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
             e.printStackTrace();
 
         }
+// upload image from firebase realtime databas
 
 
         return bmp;
