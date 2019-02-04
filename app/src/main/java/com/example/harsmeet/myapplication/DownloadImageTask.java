@@ -12,6 +12,8 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
     ImageView bmImage;
 
+//     Image Donlonload tak i the t mu
+
     public DownloadImageTask(ImageView bmImage) {
 
         this.bmImage = bmImage;
@@ -43,6 +45,8 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 
         }
 // upload image from firebase realtime databas
+//        a that
+//        returm tely handle and thatt o that program can eai mument i
 
 
         return bmp;
