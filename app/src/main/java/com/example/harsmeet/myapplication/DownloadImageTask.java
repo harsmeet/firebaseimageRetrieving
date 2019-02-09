@@ -74,7 +74,6 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
 //    @Override
 //    public void registerComponents(Context context, Glide glide, Registry registry) {
 //        // Register FirebaseImageLoader to handle StorageReference
-//
 //        try {
 //            registry.append(StorageReference.class, InputStream.class,
 //
