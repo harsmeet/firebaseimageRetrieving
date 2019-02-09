@@ -1,10 +1,16 @@
 package com.example.harsmeet.myapplication;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.Registry;
+import com.firebase.ui.storage.images.FirebaseImageLoader;
+import com.google.firebase.storage.StorageReference;
 
 import java.io.InputStream;
 
@@ -63,4 +69,21 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
             e.printStackTrace();
         }
     }
+
+
+//    @Override
+//    public void registerComponents(Context context, Glide glide, Registry registry) {
+//        // Register FirebaseImageLoader to handle StorageReference
+//
+//        try {
+//            registry.append(StorageReference.class, InputStream.class,
+//
+//                    new FirebaseImageLoader.Factory());
+//
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//    }
+
 }
